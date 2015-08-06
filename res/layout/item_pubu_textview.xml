@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 注意，这里的布局是RelativeLayout，千万别写成什么Fragment之类的！！ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44ff0000"
+    android:layout_margin="1dp"
+    android:gravity="center" >
+    
+    <TextView 
+        android:id="@+id/id_pubu_textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+    
+</RelativeLayout>
